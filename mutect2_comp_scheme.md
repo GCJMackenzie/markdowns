@@ -1,6 +1,6 @@
 # Mutect2 Comparison scheme:
 
-First 3 sections demonstrate how each mmode would be written individually, the last 2 sections are proposals on how all 3 modes should be written into a single joint module.
+First 3 sections demonstrate how each mode would be written individually, the last 2 sections are proposals on how all 3 modes should be written into a single joint module.
 
 ## PON Genertion:
 
