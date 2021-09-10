@@ -1,11 +1,11 @@
-File Name:										                Description:										              Made from:							            Using:						      Needed for:	
-tumor_normal_call.vcf.gz						          Output vcf of mutect2 tumor_normal mode			  test + test2 recal bams				      mutect2						      filtermutectcalls
-tumor_normal_call.vcf.gz.tbi					        Index for vcf t/n									            test + test2 recal bams				      mutect2						      filtermutectcalls
-tumor_normal_call.f1r2.tar.gz					        Output table from mutect2 tumor_normal mode		test + test2 recal bams				      mutect2						      learnreadorientationmdl
-test2.pileups.table								            Summarises tumor allele counts	              test2 recal bam						          GetPileupSummaries      calculatecontamination 
-test.pileups.table								            Summarises normal allele counts	              test recal bam						          GetPileupSummaries	    calculatecontamination
-test_tumor_normal_call.artifact-prior.tar.gz	Table of artifact priors							        test_tumor_normal_call.f1r2.tar.gz  learnreadorientationmdl	filtermutectcalls
-tumor_normal_contamination.table				      Table of contamination estimates					    test + test2 pileups				        CalculateContamination	filtermutectcalls
-tumor_normal_segmentation.table					      Table of tumor segmentations						      test + test2 pileups				        CalculateContamination	filtermutectcalls
-test_genomicsbd									              Genomicsdb workspace (directory)					    test.genome.vcf						          genomicsdbimport			  genomicsdbimport,                                                                                                                                                               createsompon
- 
+| File Name: | Description:	| Made from: | Using:	| Needed for:	|
+| --- | --- | --- | --- | --- |
+| tumor_normal_call.vcf.gz | Output vcf of mutect2 tumor_normal mode	| test + test2 recal bams	| mutect2	| filtermutectcalls | 
+| tumor_normal_call.vcf.gz.tbi | Index for vcf t/n	| test + test2 recal bams	| mutect2 | filtermutectcalls |
+| tumor_normal_call.f1r2.tar.gz	| Output table from mutect2 tumor_normal mode | test + test2 recal bams	| mutect2	| learnreadorientationmdl |
+| test2.pileups.table | Summarises tumor allele counts |	test2 recal bam	| GetPileupSummaries | calculatecontamination |
+| test.pileups.table	| Summarises normal allele counts	| test recal bam	| GetPileupSummaries | calculatecontamination |
+| test_tumor_normal_call.artifact-prior.tar.gz | Table of artifact priors	| test_tumor_normal_call.f1r2.tar.gz | learnreadorientationmdl |	filtermutectcalls |
+| tumor_normal_contamination.table	| Table of contamination estimates	| test + test2 pileups	| CalculateContamination	| filtermutectcalls |
+| tumor_normal_segmentation.table | Table of tumor segmentations	| test + test2 pileups	| CalculateContamination |	filtermutectcalls |
+| test_genomicsdb	| Genomicsdb workspace (directory)	| test.genome.vcf	| genomicsdbimport	| genomicsdbimport, createsompon|
